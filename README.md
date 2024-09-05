@@ -54,7 +54,7 @@ The assignment of roles ("Child" and "Therapist") is done manually based on the 
 Initial Assignment:
 The first detected individual is assumed to be the "Child," and subsequent individuals are labeled as "Therapist." This is stored in the track_labels dictionary, which maps each track_id to its assigned role.
 Logic Implementation:
-# Assign roles based on the order of appearance
+**Assign roles based on the order of appearance**
 if track_id not in track_labels:
     if len(track_labels) == 0:
         # Assume the first detected track ID is the Child
@@ -68,6 +68,7 @@ Persistent Labeling:
 This logic ensures that once a role is assigned to a track ID, it remains consistent throughout the video, avoiding mislabeling caused by ID changes or switching.
 Use Case:
 This manual approach is particularly useful in settings where the participants have clearly defined roles and can be initially identified based on context or observation.
+
 **Dependencies**
 The project requires the following dependencies:
 
@@ -78,6 +79,7 @@ ultralytics==8.0.107
 deep-sort-realtime==1.3.1
 These can be installed using the provided requirements.txt file:
 pip install -r requirements.txt
+
 **Running the Code**
 Ensure the necessary dependencies are installed.
 Update the input_video_path and output_video_path with the correct paths to your input and output videos.
