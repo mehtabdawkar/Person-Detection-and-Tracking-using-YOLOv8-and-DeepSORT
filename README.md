@@ -9,6 +9,7 @@ Logic Behind Analyzing Model Predictions
 3. Label Assignment
 Dependencies
 Running the Code
+
 **Overview**
 The system uses the YOLOv8 object detection model to detect persons in each video frame and DeepSORT to track those detected persons across frames. The program labels each tracked person as either a "Child" or a "Therapist" based on a heuristic (using the track ID).
 
