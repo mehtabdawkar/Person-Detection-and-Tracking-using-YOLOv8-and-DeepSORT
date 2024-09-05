@@ -8,6 +8,7 @@ Logic Behind Analyzing Model Predictions
 1. YOLOv8 Model for Person Detection
 2. DeepSORT Tracker for Tracking Persons
 3. Label Assignment
+   
 Dependencies
 Running the Code
 
