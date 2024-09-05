@@ -2,6 +2,7 @@
 This project implements a person detection and tracking system using YOLOv8 (You Only Look Once version 8) and DeepSORT (Deep Simple Online and Realtime Tracking). The code is designed to analyze a video, detect persons within each frame, and track them over time. It assigns labels (such as "Child" and "Therapist") based on certain heuristics to identify roles in specific contexts, like therapy sessions.
 
 **Table of Contents**
+
 Overview
 Logic Behind Analyzing Model Predictions
 1. YOLOv8 Model for Person Detection
