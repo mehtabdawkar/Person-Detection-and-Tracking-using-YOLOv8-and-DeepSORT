@@ -89,4 +89,8 @@ Ensure the necessary dependencies are installed.
 Update the input_video_path and output_video_path with the correct paths to your input and output videos.
 Run the script using your preferred Python environment:
 process_video(input_video_path, output_video_path)
-The output will be a video with tracked persons, each labeled appropriately as "Child" or "Therapist," saved to the specified pat
+The output will be a video with tracked persons, each labeled appropriately as "Child" or "Therapist," saved to the specified path
+
+**Note:**
+To access the output of the videos and all the content related to the project visit this link:
+https://drive.google.com/drive/folders/1IMk0yJfDFEM7hGYYm6ReWwvSWNSJ-Oz6?usp=sharing
